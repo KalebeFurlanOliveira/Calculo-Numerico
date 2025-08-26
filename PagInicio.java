@@ -23,13 +23,13 @@ public class PagInicio extends JFrame {
         bisseccaoButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Aqui você chamaria o método de bissecção!");
-            }
+            new BisseccaoGUI();
+        }
         });
         sistemasButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null, "Aqui você chamaria o método de resolução de sistemas lineares!");
+            new PagMetodoGauss();
             }
         });
         painelBotoes.add(bisseccaoButton);
